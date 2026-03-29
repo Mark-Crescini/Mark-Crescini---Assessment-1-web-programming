@@ -1,0 +1,13 @@
+.container { /* Styles for the main container element */
+    padding: min(5em, 8%); /* Adds padding inside the container */
+    width: 400px;  /* Sets a fixed width of 400 pixels */
+    background-color: white;; /* Sets the background color to white */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05); /* Adds a soft shadow below the container */
+    border-radius: 1em; /* Rounds the corners of the container */
+}
+
+body { /* Styles applied to the entire page body */
+    border-style: outset; /* Sets the border style to outset that gives a raised 3D effect */
+    border-width: 3px; /* Sets the thickness of the border */
+    border-radius: 1em;  /* Rounds the corners of the body border */
+}
