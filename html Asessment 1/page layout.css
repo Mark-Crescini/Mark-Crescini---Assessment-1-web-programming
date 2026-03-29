@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif; /* Body font */
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #17072b; /* Dark purple */
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+header .logo h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 30px;
+}
+#welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+#welcome p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.welcome-image {
+    width: 100%; /* Full width under text */
+    max-width: 800px;
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.lineup-section {
+    display: flex; /* Main text + sidebar */
+    gap: 20px;
+    margin-top: 30px;
+}
+.lineup-text {
+    flex: 2; /* Main text takes more space */
+}
+.lineup-sidebar {
+    flex: 1; /* Sidebar smaller */
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+}
+.lineup-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.lineup-sidebar ul li {
+    margin-bottom: 8px;
+}
+.lineup-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+#studyplanner {
+    background-color: #172d67;
+    color: #FFFFFF;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.planner-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.column {
+    flex: 1;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.demo-items {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.demo-item {
+    flex: 1;
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #6a0eb5;
+}
+footer {
+    background-color: #8c15e9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
